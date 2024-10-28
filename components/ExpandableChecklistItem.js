@@ -1,24 +1,36 @@
 import { useState } from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 
-const ExpandableChecklistItem = ({ item, toggleCheck}) => {
-    const [expanded, SetExpanded] = useState(false);
+const ExpandableChecklistItem = ({ item, toggleCheck }) => {
+    const [expanded, setExpanded] = useState(false);
 
     const toggleExpand = () => {
-        SetExpanded(!expanded);
+        setExpanded(!expanded);
     };
 
     return (
-        <View style ={styles.itemContainer}>
-            <TouchableOpacity
-                onPress={toggleExpand}
-                style={styles.itemTouchable}
-            >
-                <Text style={styles.itemTitle}>
-                    {item.label}
-                </Text>
-            </TouchableOpacity>
+        <View style={styles.itemContainer}>
+            <View style={styles.row}>
+                <BouncyCheckbox
+                    isChecked={item.completed}
+                    text={item.label}
+                    fillColor='#005994'
+                    unFillColor="#FFFFFF"
+                    innerIconStyle={{ borderWidth: 2 }}
+                    onPress={() => toggleCheck(item.id)}
+                    style={styles.checkbox}
+                />
+                <TouchableOpacity
+                    onPress={toggleExpand}
+                    style={styles.iconTouchable}
+                >
+                    <Image
+                        source={require('../assets/downarrowicon.png')}
+                        style={styles.icon}
+                    />
+                </TouchableOpacity>
+            </View>
             {expanded && (
                 <View>
                     <Text style={styles.itemContent}>
@@ -26,32 +38,11 @@ const ExpandableChecklistItem = ({ item, toggleCheck}) => {
                     </Text>
                 </View>
             )}
-            <BouncyCheckbox
-                isChecked={item.completed}
-                text={''}
-                fillColor='#005994'
-                unFillColor="#FFFFFF"
-                innerIconStyle={{ borderWidth: 2 }}
-                onPress={() => toggleCheck(item.id)}
-                style={styles.checkbox}
-            />
         </View>
     );
 };
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#f5f5f5",
-        padding: 20,
-    },
-    header: {
-        fontSize: 30,
-        fontWeight: "bold",
-        marginBottom: 20,
-        color: "green",
-        textAlign: "center",
-    },
     itemContainer: {
         marginBottom: 15,
         padding: 10,
@@ -59,23 +50,26 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         elevation: 3,
     },
-    itemTouchable: {
-        borderRadius: 10,
-        overflow: "hidden",
+    row: {
+        flexDirection: 'row',
+        alignItems: 'center', 
+        justifyContent: 'space-between', 
     },
-    itemTitle: {
-        fontSize: 18,
-        fontWeight: "bold",
-        color: "#333",
+    checkbox: {
+        flex: 1, 
+    },
+    iconTouchable: {
+        paddingLeft: 10, 
+    },
+    icon: {
+        width: 30,
+        height: 30, 
+        resizeMode: 'contain',
     },
     itemContent: {
         marginTop: 10,
         fontSize: 14,
         color: "#666",
-    },
-    checkbox: {
-        marginTop: 10,
-        alignSelf: 'flex-start',
     },
 });
 

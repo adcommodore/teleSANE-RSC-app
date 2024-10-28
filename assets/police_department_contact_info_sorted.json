@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Abington",
+        "phone": "781-878-3232",
+        "fax": "781-982-2120"
+    },
+    {
+        "name": "Acton",
+        "phone": "978-929-7711",
+        "fax": "978-929-7350"
+    },
+    {
+        "name": "Ayer",
+        "phone": "978-772-8200",
+        "fax": "978-772-8237"
+    },
+    {
+        "name": "Boston",
+        "phone": "617-343-4200",
+        "fax": "617-343-4481"
+    },
+    {
+        "name": "Bourne",
+        "phone": "508-759-4420",
+        "fax": "508-759-4454"
+    },
+    {
+        "name": "Brookfield",
+        "phone": "508-867-5570",
+        "fax": "508-867-3161"
+    },
+    {
+        "name": "Brookline",
+        "phone": "617-730-2249",
+        "fax": "617-730-8454"
+    },
+    {
+        "name": "East Bridgewater",
+        "phone": "508-378-7223",
+        "fax": "508-378-7225"
+    },
+    {
+        "name": "East Brookfield",
+        "phone": "508-867-6130",
+        "fax": "508-867-4172"
+    },
+    {
+        "name": "East Longmeadow",
+        "phone": "413-525-5440",
+        "fax": "413-525-5445"
+    },
+    {
+        "name": "Eastham",
+        "phone": "508-255-0551",
+        "fax": "508-255-5412"
+    },
+    {
+        "name": "Egremont",
+        "phone": "413-528-2160",
+        "fax": "413-528-5465"
+    },
+    {
+        "name": "Erving",
+        "phone": "413-423-3310",
+        "fax": "413-423-3340"
+    },
+    {
+        "name": "Great Barrington",
+        "phone": "413-528-0306",
+        "fax": "413-528-6342"
+    },
+    {
+        "name": "Greenfield",
+        "phone": "413-773-5411",
+        "fax": "413-774-6969"
+    },
+    {
+        "name": "Holliston",
+        "phone": "508-429-1212",
+        "fax": "508-429-0611"
+    },
+    {
+        "name": "Holyoke",
+        "phone": "413-536-6431",
+        "fax": "413-532-7583"
+    },
+    {
+        "name": "Lanesborough",
+        "phone": "413 443 4107",
+        "fax": "413-442-9078"
+    },
+    {
+        "name": "Lawrence",
+        "phone": "978-794-5900",
+        "fax": "978-794-5915"
+    },
+    {
+        "name": "Mendon",
+        "phone": "508-478-2797",
+        "fax": "508-473-2741"
+    },
+    {
+        "name": "Methuen",
+        "phone": "978-983-8698",
+        "fax": "978-983-8992"
+    },
+    {
+        "name": "Middleborough",
+        "phone": "508-947-1212",
+        "fax": "508-947-1009"
+    },
+    {
+        "name": "Middlefield",
+        "phone": "413-354-0468",
+        "fax": "413-623-0005"
+    },
+    {
+        "name": "Nahant",
+        "phone": "781-581-1212",
+        "fax": "781-581-1907"
+    },
+    {
+        "name": "New Braintree",
+        "phone": "508-867-2059",
+        "fax": "508-867-5414"
+    },
+    {
+        "name": "New Marlborough",
+        "phone": "413-229-8393",
+        "fax": "413-229-8020"
+    },
+    {
+        "name": "New Salem",
+        "phone": "978-544-2141",
+        "fax": "978-544-3000"
+    },
+    {
+        "name": "North Andover",
+        "phone": "978-683-3168",
+        "fax": "978-686-1212"
+    },
+    {
+        "name": "North Attleborough",
+        "phone": "508-695-1212",
+        "fax": "508-699-6303"
+    },
+    {
+        "name": "North Brookfield",
+        "phone": "508-867-0206",
+        "fax": "508-867-0214"
+    },
+    {
+        "name": "North Reading",
+        "phone": "978-664-3131",
+        "fax": "978-664-3170"
+    },
+    {
+        "name": "Northampton",
+        "phone": "413-587-1100",
+        "fax": "413-587-1137"
+    },
+    {
+        "name": "Palmer",
+        "phone": "413-283-8792",
+        "fax": "413-289-1422"
+    },
+    {
+        "name": "Paxton",
+        "phone": "508-755-1104",
+        "fax": "508-793-3111"
+    },
+    {
+        "name": "Peabody",
+        "phone": "978 538 6306",
+        "fax": "978-532-5950"
+    },
+    {
+        "name": "Pelham",
+        "phone": "413-253-0484",
+        "fax": "413-253-4031"
+    },
+    {
+        "name": "Seekonk",
+        "phone": "508-336-8123",
+        "fax": "508-336-0850"
+    },
+    {
+        "name": "Shutesbury",
+        "phone": "413-259-1279",
+        "fax": "413-259-1772"
+    },
+    {
+        "name": "Somerset",
+        "phone": "508-679-2138",
+        "fax": "508-676-1893"
+    },
+    {
+        "name": "Wellesley",
+        "phone": "781-235-0062",
+        "fax": "781-235-3830"
+    },
+    {
+        "name": "Wellfleet",
+        "phone": "508-349-3702",
+        "fax": "508-349-7683"
+    },
+    {
+        "name": "West Boylston",
+        "phone": "508-835-3233",
+        "fax": "508-835-8938"
+    },
+    {
+        "name": "West Bridgewater",
+        "phone": "508-586-2525",
+        "fax": "508-894-1295"
+    },
+    {
+        "name": "West Brookfield",
+        "phone": "508-867-1405",
+        "fax": "508-867-1406"
+    },
+    {
+        "name": "West Newbury",
+        "phone": "978-363-1212",
+        "fax": "978-363-1114"
+    },
+    {
+        "name": "West Springfield",
+        "phone": "413-263-3210",
+        "fax": "413-731-6798"
+    },
+    {
+        "name": "West Stockbridge",
+        "phone": "413-232-8500",
+        "fax": "413-232-7938"
+    },
+    {
+        "name": "West Tisbury",
+        "phone": "508-693-0020",
+        "fax": "508-696-0120"
+    },
+    {
+        "name": "Westhampton",
+        "phone": "413-527-6154",
+        "fax": "413-529-1735"
+    },
+    {
+        "name": "Westminster",
+        "phone": "978-874-2900",
+        "fax": "978-874-0503"
+    }
+]

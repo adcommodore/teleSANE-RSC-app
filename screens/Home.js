@@ -17,7 +17,7 @@ export default function Home({ navigation }) {
         <Text style={styles.h2}>Portal</Text>
         <Button 
             title='Sign In'
-            onPress={() => navigation.navigate('Checklist')}
+            onPress={() => navigation.navigate('Menu')}
         />
     </View>
     )
